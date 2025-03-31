@@ -8,6 +8,6 @@ for key in question_data:
 
 
     #testing
-print(question_bank[3].answer)
+print(question_bank[3].question)
 
 
