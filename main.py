@@ -10,4 +10,5 @@ quiz = QuizBrain(question_bank)
 
 quiz.next_question()
 
-
+#check if the answer is correct
+# check when we are at the end of quiz
