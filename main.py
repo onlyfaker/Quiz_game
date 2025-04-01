@@ -1,13 +1,13 @@
 from data import question_data
 from question_model import Question
+from quiz_brain import QuizBrain
 
 question_bank = []
-
 for key in question_data:
     question_bank.append(Question(key["text"],key["answer"]))
 
+quiz = QuizBrain(question_bank)
 
-    #testing
-print(question_bank[3].question)
+quiz.next_question()
 
 
