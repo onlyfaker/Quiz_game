@@ -13,4 +13,4 @@ while quiz.still_has_questions():#could put while true...
     user_answer = quiz.next_question()
 
 print("You have completed the quiz!")
-print(f"your final scopre is:{quiz} {len(question_bank)}")
+print(f"Your final score is: {quiz.score} /{len(question_bank)}")
