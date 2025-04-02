@@ -13,3 +13,4 @@ while quiz.still_has_questions():
 
 print("You have completed the quiz!")
 print(f"Your final score is: {quiz.score} /{len(question_bank)}")
+# add new questions from OPEN TRIVIA DB
